@@ -1,0 +1,40 @@
+{
+  "name": "roulette",
+  "version": "1.0.0",
+  "description": "roulette game with html5 and react",
+  "main": "roulette.js",
+  "scripts": {
+    "dev": "webpack-dev-server --content-base app/ --inline --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpacatang/roulette.git"
+  },
+  "keywords": [
+    "node.js",
+    "javascript",
+    "react.js",
+    "html5",
+    "animation"
+  ],
+  "author": "Ralph Juncel Pacatang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rpacatang/roulette/issues"
+  },
+  "homepage": "https://github.com/rpacatang/roulette#readme",
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "css-loader": "^0.26.0",
+    "react": "^15.4.0",
+    "react-bootstrap": "^0.30.6",
+    "react-dom": "^15.4.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
